@@ -1,3 +1,72 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 90vh;
+}
+
+body {
+	background-color: rgb(60, 60, 60);
+	text-align: center;
+}
+
 h1 {
-  color: green;
+	color: white;
+	font-family: sans-serif;
+	font-weight: 900;
+}
+
+h2 {
+	color: white;
+	font-family: sans-serif;
+	font-weight: 900;
+}
+
+p {
+	color: white;
+	font-family: sans-serif;
+}
+
+button {
+	color: white;
+	font-family: sans-serif;
+
+	width: 250px;
+	height: 50px;
+	border-radius: 50rem;
+	margin-top: 25px;
+	border: solid 3px #ffff;
+	background-color: rgb(60, 60, 60);
+	transition: all 300ms;
+}
+
+button:hover {
+	background-color: rgb(255, 255, 255);
+	color: black;
+	transform: scale(1.1);
+}
+
+.scoreBoard {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+.playScore {
+	display: flex;
+	flex-direction: column;
+}
+
+.botScore {
+	display: flex;
+	flex-direction: column;
+}
+
+#playScoreValue {
+	margin-top: 0;
+}
+
+#botScoreValue {
+	margin-top: 0;
 }
